@@ -1,17 +1,28 @@
 // Write your code in this file!
-let response;
 
 
 function scuberGreetingForFeet(someValue) {
   if (someValue <= 400) {
-    response = 'This one is on me!';
+    return 'This one is on me!';
   } else if(someValue > 2500) {
-    response = "No can do.";
+    return "No can do.";
   } else if(someValue > 2000) {
-    response = "I will gladly take your thirty bucks.";
+    return "I will gladly take your thirty bucks.";
   }
 }
 
-scuberGreetingForFeet(199)
+function ternaryCheckCity(city) {
+  if (city === "NYC") {
+    return "Ok, sounds good.";
+  }
+  return "No go."
+}
 
-response
+function switchOnCharmFromTip(tip) {
+  if (tip === "generous" ) {
+    return "Thank you so much."
+  } else if (tip === "not as generous") {
+    return "Thank you."
+  }
+  return "Bye."
+}
