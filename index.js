@@ -1,4 +1,5 @@
 // Write your code in this file!
+// Write your code in this file!
 function scuberGreetingForFeet(ride) {
     if (ride <= 400) {
         return 'This one is on me!';
@@ -30,7 +31,3 @@ function switchOnCharmFromTip (tip) {
         break;
     }
 }
-
-       
-
-
