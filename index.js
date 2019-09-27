@@ -22,13 +22,14 @@ function ternaryCheckCity(city){
 }
 
 function switchOnCharmFromTip(tip){
-  if (tip == "generous") {
-    return "Thank you so much."
+
+  switch(tip) {
+    case: "generous"
+      return "Thank you so much.";
+    case: "not as generous"
+      return "Thank you."
+    default:
+      return "Bye."
   }
-  else if (tip == "not as generous") {
-    return "Thank you."
-  }
-  else {
-    return "Bye."
-  }
+
 }
